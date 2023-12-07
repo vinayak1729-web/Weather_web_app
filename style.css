@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    box-sizing: border-box;
+}
+/**body{
+ background-color:aqua;
+ background: url('images/cb1.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+**/
+h1{
+    padding-top: 30px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+
+}
+.card {
+    width:  60%;
+    max-width: 400 px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+    margin: 50px auto 0;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+
+}
+.search 
+{
+    width: 80%;
+    display:flex;
+    font-size: 25px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 85%;
+}
+.search input {
+    border: 0;
+    outline: 0;
+    width: 75%;
+    background: white;
+    color:black;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+    opacity: 85%;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: white;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;;
+    cursor: pointer;
+    opacity: 1000%;
+}
+
+.search button image{
+    width:30%;
+   
+    opacity: 100%;
+    
+}
+.search img{
+    width: 60%;
+}
+.weather{
+    text-align: center;
+}
+.weather-icon{
+    width: 140px;
+    margin-top: 20px;
+}
+.weather h1{
+    margin-top: -25px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.weather{
+    display: none;
+}
+.details {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.col {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    text-align: left;
+   
+
+}
+
+.col img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px; 
+    margin-right: 20px;
+   
+}
+.humidity , .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+.error{
+    text-align: left;
+    margin-left: 50px;
+    font-size: 14px;
+    margin-top:10px;
+    display: none;
+}
